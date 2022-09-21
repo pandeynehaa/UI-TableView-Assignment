@@ -36,10 +36,10 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3J-bl-Fgc">
-                                                    <rect key="frame" x="183" y="70" width="42" height="21"/>
+                                                    <rect key="frame" x="301" y="70" width="42" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="5rz-Cu-iXf"/>
-                                                        <constraint firstAttribute="width" constant="42" id="nVf-OL-V4o"/>
+                                                        <constraint firstAttribute="width" constant="42" id="7fR-it-Mlk"/>
+                                                        <constraint firstAttribute="height" constant="21" id="BHD-PS-vEq"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -48,11 +48,10 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="ShP-wC-3SO" secondAttribute="bottom" constant="11" id="4dW-fD-HkV"/>
+                                                <constraint firstItem="a3J-bl-Fgc" firstAttribute="centerY" secondItem="ShP-wC-3SO" secondAttribute="centerY" id="9cK-mE-ouo"/>
                                                 <constraint firstItem="ShP-wC-3SO" firstAttribute="leading" secondItem="MXT-vU-Glg" secondAttribute="leadingMargin" constant="12" id="Apd-kx-Wlp"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="a3J-bl-Fgc" secondAttribute="trailing" constant="51" id="GtE-hh-q7S"/>
                                                 <constraint firstItem="ShP-wC-3SO" firstAttribute="top" secondItem="MXT-vU-Glg" secondAttribute="topMargin" constant="11" id="HYc-zf-VbI"/>
-                                                <constraint firstItem="a3J-bl-Fgc" firstAttribute="leading" secondItem="ShP-wC-3SO" secondAttribute="trailing" constant="8" symbolic="YES" id="XCN-8s-6fN"/>
-                                                <constraint firstItem="a3J-bl-Fgc" firstAttribute="centerY" secondItem="MXT-vU-Glg" secondAttribute="centerY" id="bfv-DA-36w"/>
-                                                <constraint firstItem="a3J-bl-Fgc" firstAttribute="top" secondItem="MXT-vU-Glg" secondAttribute="topMargin" constant="59" id="p3d-9M-vkX"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
